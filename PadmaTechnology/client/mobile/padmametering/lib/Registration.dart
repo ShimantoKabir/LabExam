@@ -111,6 +111,8 @@ class RegistrationPageState extends State<RegistrationPage> {
 
     Navigator.of(context, rootNavigator: true).pop('dialog');
 
+    print(response.body);
+
     if (response.statusCode == 200) {
       print(response.body);
       var body = json.decode(response.body);

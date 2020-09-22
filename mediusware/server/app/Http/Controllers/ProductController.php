@@ -40,6 +40,24 @@ class ProductController extends Controller
     public function store(Request $request)
     {
 
+
+        $product = new Product();
+        $product->fill($request->all());
+        $product->save();
+
+        $reqProductVariant = $request->product_variant;
+
+        foreach ($reqProductVariant as $pvKey=>$pvVal){
+
+            $productVariant = new ProductVariant();
+            $productVariant->variant_id = $pvVal['option'];
+            $productVariant->product_id = $product->id;
+            $productVariant->save();
+
+        }
+
+        return redirect()->back()->with('success', 'Product Saved');
+
     }
 
 

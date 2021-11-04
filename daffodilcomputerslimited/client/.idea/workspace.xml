@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a14c650-d32d-4131-9c39-92fe579ca0f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/nav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mediusware/server/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediusware/server/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mediusware/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mediusware/server/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a14c650-d32d-4131-9c39-92fe579ca0f6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600917921839</updated>
       <workItem from="1600917923221" duration="4036000" />
+      <workItem from="1631838138487" duration="6000" />
     </task>
     <servers />
   </component>
@@ -74,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
